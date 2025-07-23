@@ -18,8 +18,8 @@ footer
     position: fixed;
     left: 0;
     bottom: 0;
-    width:calc(100% - 22px);
-    height:1.5em;
+    width:calc(100% - 1.35em);
+    height:3em;
     border-width: 3px;
     border-style: solid;
     border-image-slice: 1;
@@ -37,7 +37,7 @@ nav
 }
 .nav-item
 {
-    padding: 0.5em 45% 0.5em 45%;
+    padding: 0.5em 37% 0.5em 37%;
     margin-bottom: .05em;
     border-bottom: 2px solid #f3f2a7;
     border-right: 2px solid #f3f2a7;
@@ -68,20 +68,39 @@ figure img
 figcaption
 {
     max-width: calc(100% - (60% - 4px));
-    margin-left: 16em;
+    margin-left: 1em;
+    padding: 1.6em;
+    background-color: white;
 }
 figure
 {
     background-color: rgb(255, 248, 188);
     padding: 1em;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+article figcaption
+{
+    max-width: calc(100% - (60% - 4px));
+    margin-left: 1em;
+    padding: 0.25em;
+    background-color: white;
+}
+article figure
+{
+    background-color: #fffd77;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 hr
 {
     margin: .1em 0em .1em 0em;
     border-width: 3px;
     border-style: solid;
-    border-image: linear-gradient(to bottom, #fdffa0, #fffb25);
+    border-image: linear-gradient(to bottom, #fffffa, #fffedd);
     border-image-slice: 1;
 }
 @media (min-width: 1024px)
