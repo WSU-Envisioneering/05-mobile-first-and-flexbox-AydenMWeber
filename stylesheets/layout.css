@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    max-width: 100%;
+}
+.clearfix::after
+{
+    content:"";
+    clear:both;
+    display: table;
+}
+.pull-left
+{
+    margin:0 5px;
+    float:left;
+    width: 40%;
+    text-align: left;
+}
+.pull-right
+{
+    margin:0 5px;
+    float:right;
+    width: 40%;
+    text-align: left;
+}
