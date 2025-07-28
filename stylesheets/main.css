@@ -4,6 +4,7 @@ body
     color: black;
     background-color: #fffd77;
     text-align: center;
+    font-family: Segoe UI, 'Tahoma', Geneva, Verdana, sans-serif ;
 }
 header
 {
@@ -19,7 +20,7 @@ footer
     left: 0;
     bottom: 0;
     width:calc(100% - 1.35em);
-    height:3em;
+    height:5em;
     border-width: 3px;
     border-style: solid;
     border-image-slice: 1;
@@ -28,6 +29,12 @@ footer a
 {
     text-decoration: none;
     color: #acaa3a;
+}
+footer #go-top
+{
+    color: #79680a;
+    text-decoration: underline;
+    font-size: 0.75em;
 }
 nav
 {
@@ -103,13 +110,15 @@ hr
     border-image: linear-gradient(to bottom, #fffffa, #fffedd);
     border-image-slice: 1;
 }
-@media (min-width: 1024px)
+#fig-bottom
 {
-    nav
-    {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-    }
+    margin: 0em 1em 0em 0em;
+}
+#fig-bottom figcaption
+{
+    margin: 0em 1em 0em 0em;
+}
+#fig-bottom img
+{
+    order: 2;
 }
